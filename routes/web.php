@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 //});
 
 
-Route::prefix('cadastros')->group(function(){
+Route::prefix('/')->group(function(){
     Route::get('/', [\App\Http\Controllers\CadastrosController::class, 'index'])->name('cadastros-index');
     Route::get('/create', [\App\Http\Controllers\CadastrosController::class, 'create'])->name('cadastros-create');
     Route::post('/', [\App\Http\Controllers\CadastrosController::class, 'store'])->name('cadastros-store');
