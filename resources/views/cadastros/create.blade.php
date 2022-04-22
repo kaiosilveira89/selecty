@@ -50,7 +50,7 @@
 
                 <div class="form-group">
                     <label for="senha">Password:</label>
-                    <input type="text" name="senha" class="form-control" placeholder="Digite uma senha para sua conta de usuário..." required>
+                    <input type="password" name="senha" class="form-control" placeholder="Digite uma senha para sua conta de usuário..." required>
                 </div>
                 <br>
 

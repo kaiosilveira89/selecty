@@ -51,7 +51,7 @@
 
                 <div class="form-group">
                     <label for="senha">Password:</label>
-                    <input type="text" name="senha" class="form-control" value="{{$cadastros->password}}" placeholder="Digite uma senha com 8 digitos..." required>
+                    <input type="text" name="senha" class="form-control" value="{{$cadastros->senha}}" placeholder="Digite uma senha com 8 digitos..." required>
                 </div>
                 <br>
                 <div class="form-group">
