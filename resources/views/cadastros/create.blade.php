@@ -6,6 +6,9 @@
 <!-- Tudo aque será enviado para o template -->
     <div class="container mt-5">
         <h1>Novo Cadastro de Candidatos</h1>
+        <div class="col-sm-2">
+            <a href="{{ route('cadastros-index') }}" class="btn btn-warning">Voltar</a>
+        </div>
         <hr>
         <form action="{{ route('cadastros-store') }}" method="POST">
             @csrf
